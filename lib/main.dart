@@ -131,8 +131,8 @@ class PaginaSesion extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('CFE'),
-        backgroundColor: const Color(0xff1d8c19),
+        title: const Text('Sabritas'),
+        backgroundColor: const Color(0xfff6c522),
         elevation: 8,
       ),
       body: Padding(
@@ -169,7 +169,7 @@ class PaginaSesion extends StatelessWidget {
               ),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(340, 40),
-                backgroundColor: const Color(0xff000000),
+                backgroundColor: const Color(0xfff6c522),
               ),
               onPressed: () => _login(context),
             ),
@@ -181,7 +181,7 @@ class PaginaSesion extends StatelessWidget {
               ),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(340, 40),
-                backgroundColor: const Color(0xff000000),
+                backgroundColor: const Color(0xfff6c522),
               ),
               onPressed: () => _registro(context),
             ),
@@ -209,8 +209,8 @@ class PaginaInicio extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('CFE'),
-        backgroundColor: const Color(0xff1d8c19),
+        title: const Text('Sabritas'),
+        backgroundColor: const Color(0xfff6c522),
         elevation: 8,
       ),
       body: Center(
@@ -225,7 +225,7 @@ class PaginaInicio extends StatelessWidget {
               child: const Text('Cerrar sesión'),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(340, 40),
-                backgroundColor: const Color(0xff000000),
+                backgroundColor: const Color(0xfff6c522),
               ),
               onPressed: () => _cerrarSesion(context),
             ),
